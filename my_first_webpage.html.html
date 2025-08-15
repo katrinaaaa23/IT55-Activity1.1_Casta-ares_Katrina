@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<tittle>My First Webpage</tittle>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is my first HTML page.">
+	<meta name="keywords" content="HTML, beginner, web development">
+	<meta name="author" content="Katrina D. Castañares">
+	<style>
+    		body {
+        		font-family: Arial, sans-serif;
+        		background-color: #ff98b7;
+        		margin: 20px;
+    		}
+    		h1 {
+        		color: #ffffff;
+    		}
+   		 p {
+        		line-height: 1.5;
+    		}
+    		.highlight {
+        		background-color: white;
+    		}
+	</style>
+	<script>
+   		function greet() {
+			alert("Hello! Welcome to my page.");
+   		}
+	</script>
+</head>
+<body onload="greet()">
+
+<h1>Welcome to My First Webpage</h1>
+        
+<p>Hello, my name is <b>Katrina D. Castañares</b>, and here are some of my hobbies and favorites<i><italic text</i>.</p>
+        
+<p> class="highlight">This paragraph is highlighted using CSS.</p>
+        
+	<h2>My Favorite Hobbies</h2>
+        <ul>
+		<li>Table Tennis</li>
+		<li>Planting plants</li>
+		<li>Cooking</li>
+        </ul>
+
+        <h2>Steps to play Table Tennis</h2>
+        <ol>
+		<li>Hitting a lightweight ball back</li>
+		<li>Forth over the net o a table</li>
+		<li>Make it bounce once on your opponent's side of the table</li>
+        </ol>
+
+	<!-- This is a comment: The above lists show unordered and orderd lists -->
+
+	<p>Visit <a href="https://www.experttabletennis.com/how-to-play-table-tennis/" target="_blank">Example Website</a> for more info.</p>
+
+	<h2>My Favorite Song</h2>
+	<audio controls>
+		<source src="short music.mp3" type="audio/mp3"/>
+		Your browser does not support the audio element.
+	</audio>
+
+	<h2>My Favorite Table Tennis Scene</h2>
+	<video width="320" height="240" controls>
+		<source src="My View.mp4" type="video/mp4"/>
+		Your browser does not support the video element.
+	</video>
+
+	<h2>My Favorite Picture</h2>
+		<img src="Rose.jpg" alt="Best Flower Image" width="300">
+
+	<div style="border:1px solid  #000; padding: 10px; margin-top:10px;">
+ 		<p>This is a block container using <span class="red">div</span>
+and <span style="font-weight: bold;">span</span> elements.</p>
+	</div>
+
+	<h2>Class Schedule</h2>
+	<table border="2" cellpadding="5">
+		<tr>
+			<th>Date</th>
+			<th>Subject</th>
+		</tr>		
+		<tr>
+			<td>August 12 & 15, 2025</td>
+			<td>Web Systems and Technology</td>
+ 		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td>HTML Basics</td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td>CSS Basics</td>
+		</tr>
+	</table>
+
+	<h2>Contact Me</h2>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<input type="submit" value="Submit>
+	</form>
+</body>
+</html>
